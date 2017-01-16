@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--(C) 2017 David Lettier-->
+<html>
+  <head>
+    <title>Simple Linear Regression | Lettier.com</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="pageContainer">
+      <div id="instructionsContainer">
+        <h1>Simple Linear Regression</h1>
+        <span>Add points by pressing <button class="defaultCursor">Push Point</button>.</span>
+        <br>
+        <span>
+          Remove points by pressing
+          <button class="defaultCursor">Pop Point</button> or
+          <button class="removeButton defaultCursor">X</button>.</span>
+        <br>
+        <span>Find the y-intercept and the slope by pressing <button class="runButton defaultCursor">Run</button>.</span>
+      </div>
+      <div class="row">
+        <div id="chartContainer">
+          <canvas id="pointChart" width="400" height="400"></canvas>
+        </div>
+        <div id="uiContainer">
+        </div>
+      </div>
+    <div id="logoContainer">
+      <a href="#" onclick="window.open('https://lettier.com')" title="Lettier.com">
+        <img id="logo" src="logo.png" width="250" height="250" alt="Lettier.com">
+      </a>
+    </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+/*
+  (C) 2017 David Lettier
+  lettier.com
+*/
+body {
+  font-family: sans-serif;
+  margin-top: 25px;
+  margin-left: 25px;
+  background-color: #343438;
+  color: white;
+  height: 100%;
+  line-height: 2; }
+
+input {
+  margin-right: 4px;
+  outline: none;
+  border: none;
+  border-radius: 1px;
+  padding: 2px;
+  font-size: 20px;
+  width: 210px;
+  background-color: whitesmoke;
+  color: #222; }
+
+li {
+  list-style: none;
+  margin-top: 3px; }
+
+button {
+  background-color: #6f6cb9;
+  color: white;
+  font-weight: bold;
+  margin: 2px;
+  border-style: none;
+  border-radius: 1px;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 3px 3px 0px #190d25;
+  -moz-box-shadow: 0px 3px 3px 0px #190d25;
+  box-shadow: 0px 3px 3px 0px #190d25; }
+
+#pageContainer {
+  height: 100%; }
+
+#chartContainer {
+  margin-right: 10px; }
+
+#instructionsContainer {
+  margin-bottom: 20px; }
+
+#uiContainer {
+  margin-left: 10px; }
+
+#logoContainer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  clear: both; }
+
+#logo {
+  width: 250px;
+  height: 250px; }
+  @media (max-width: 1440px) {
+    #logo {
+      width: 200px;
+      height: 200px; } }
+  @media (max-width: 1024px) {
+    #logo {
+      width: 150px;
+      height: 150px; } }
+  @media (max-width: 768px) {
+    #logo {
+      width: 100px;
+      height: 100px; } }
+
+.runButton {
+  background-color: #00c17c; }
+
+.removeButton {
+  background-color: #f52f57; }
+
+.randomPointsButton {
+  background-color: #4d98c5; }
+
+.defaultCursor {
+  cursor: default; }
+
+.row {
+  display: flex;
+  flex-direction: row; }
